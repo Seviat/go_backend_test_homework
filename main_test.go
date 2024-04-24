@@ -15,7 +15,7 @@ func TestCheckRequiredFiles(t *testing.T) {
 	if err != nil {
 		t.Errorf(err.Error())
 	}
-
+	//
 	files, err := os.ReadDir(dir)
 	if err != nil {
 		t.Errorf("Please check permissions for the dir - %s ", dir)
